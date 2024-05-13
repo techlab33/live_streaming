@@ -8,8 +8,24 @@ This project is a starting point for a Flutter application.
 
 A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+    <application
+        android:label="live_4"
+        android:name="${applicationName}"
+        android:usesCleartextTraffic="true"
+
+        this line need for http support
+        
+        <h4>for ios</h4>
+Open ios/Runner/Info.plist.
+Add the following XML snippet within the <dict> section:
+
+-------------------
+
+        <key>NSAppTransportSecurity</key>
+<dict>
+    <key>NSAllowsArbitraryLoads</key>
+    <true/>
+</dict>
 
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
