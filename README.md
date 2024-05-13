@@ -22,10 +22,13 @@ Add the following XML snippet within the <dict> section:
 -------------------
 
         <key>NSAppTransportSecurity</key>
-<p> <dict>
-    <key>NSAllowsArbitraryLoads</key>
-    <true/>
-</dict> </p>
+<p> <dict>  </p>
+<p>     <key>NSAllowsArbitraryLoads</key>  </p>
+ <p>    <true/>  </p>
+<p> </dict> </p>
+
+
+----------------------------
 
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
